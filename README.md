@@ -1,5 +1,9 @@
 Detecção de buracos usando um modelo Mobilenet-SSD treinado com um custom dataset na biblioteca TensorFlow
 
+Codigo de Predição baseado em:
+
+https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/tree/master
+
 Dependencias Necessarias>
 
 *tensorflow
