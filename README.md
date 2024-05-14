@@ -4,6 +4,8 @@ Codigo de Predição baseado em:
 
 https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/tree/master
 
+https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/examples/python/label_image.py
+
 Dependencias Necessarias>
 
 *tensorflow
