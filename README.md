@@ -44,6 +44,7 @@ python TFLite-detection-image.py --modeldir=custom_model_lite --imagedir=test_im
 <img src="resultados/pothole8.jpg" width=500 height=300>
 
 comparação de duas imagens. Uma com 50% e outra com 30%
+<br>
 detecção a partir de 50%
 <br>
 <img src="resultados/pothole.jpg" width=500 height=300>
