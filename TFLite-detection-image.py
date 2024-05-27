@@ -162,7 +162,7 @@ for image_path in images:
             #desenha o texto com a label
             cvzone.putTextRect(image,label, (xmin, ymin),scale =0.8,thickness=1,colorT=(255,255,255),colorR=(0,0,0),font= cv2.FONT_HERSHEY_PLAIN,offset=5)
             #carrega alguns valores em uma lista
-            detections.append([object_name, (scores[i]*100), xmin, ymin, xmax, ymax])
+            detections.append([object_name, (scores[i]), xmin, ymin, xmax, ymax])
             
     end_inference = datetime.datetime.now()
     #calculo do tempo de inferencia
