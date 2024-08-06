@@ -1,4 +1,10 @@
-Detecção de buracos usando um modelo Mobilenet-SSD treinado com um custom dataset na biblioteca TensorFlow
+# Projeto de TCC para a detecção de buracos em vias asfaltadas
+
+Detecção de buracos utilizando um modelo Mobilenet-SSD treinado com um custom dataset na biblioteca TensorFlow
+
+Projeto realizado por [José Wagner](https://github.com/WagnerRochaJ) e [Lucas Pinheiro](https://github.com/gimn0).
+
+#
 
 <br>
 <img src="resultados/mobiledetect.gif">
@@ -11,31 +17,33 @@ https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-a
 
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/examples/python/label_image.py
 
-Dependencias Necessarias>
+#
 
-*tensorflow
+### Dependencias Necessárias
+- tensorflow
+- opencv
+- numpy
+- cvzone
 
-*opencv
+#
+### Exemplos de execução:
 
-*numpy
-
-*cvzone
-
-execucão com imagem
+Execucão com imagem:
 ```
 python TFLite-detection-image.py --modeldir=custom_model_lite --image=test_images/pothole.jpg
 ```
-execução com um diretorio de imagens
+Execução com um diretório de imagens:
 ```
 python TFLite-detection-image.py --modeldir=custom_model_lite --imagedir=test_images
 ```
-execução com video
+Execução com vídeo:
 ```
 python TFLite-detection-video.py --modeldir=custom_model_lite --video=test_video/video1.mp4 
 ```
-caso queira alterar a quantidade de detecções, adicione "--threshold= 0.5"
+Caso queira alterar a quantidade de detecções, adicione "--threshold= 0.5"
 <br>
-exemplo para 40%>
+
+Exemplo para 40%:
 ```
 python TFLite-detection-image.py --modeldir=custom_model_lite --imagedir=test_images --threshold= 0.4
 
@@ -44,14 +52,16 @@ python TFLite-detection-image.py --modeldir=custom_model_lite --imagedir=test_im
 <img src="resultados/pothole7.jpg" width=500 height=300>
 <img src="resultados/pothole8.jpg" width=500 height=300>
 
-comparação de duas imagens. Uma com 50% e outra com 30%
-<br>
-detecção a partir de 50%
+#
+### Comparação de duas imagens. Uma com 50% e outra com 30%.
 <br>
 <img src="resultados/pothole.jpg" width=500 height=300>
+detecção a partir de 50%
 <br>
-detecção a partir de 30%
+
+#
+
 <br>
 <img src="resultados/30percent.jpg" width=500 height=300>
-
-
+detecção a partir de 30%
+<br>
